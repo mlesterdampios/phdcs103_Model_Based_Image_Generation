@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files
+data/*
+!data/.gitkeep
+
+# Regenerable outputs and HTML exports
+outputs/*
+!outputs/.gitkeep
+exports/*
+!exports/.gitkeep
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
