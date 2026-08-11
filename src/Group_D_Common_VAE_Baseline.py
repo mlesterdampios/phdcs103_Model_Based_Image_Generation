@@ -63,8 +63,8 @@ SEED = 42
 BATCH_SIZE = 128
 EPOCHS = 5
 LEARNING_RATE = 1e-3
-TRAIN_LIMIT = 20_000       # Use None for all 60,000 MNIST training images.
-TEST_LIMIT = 2_000         # Use None for all 10,000 MNIST test images.
+TRAIN_LIMIT = None       # Use None for all 60,000 MNIST training images.
+TEST_LIMIT = None         # Use None for all 10,000 MNIST test images.
 NUM_WORKERS = 0            # Keep 0 for maximum Jupyter/Windows compatibility.
 FORCE_RETRAIN = False      # Set True after changing the architecture or training settings.
 
